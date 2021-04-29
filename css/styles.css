@@ -95,10 +95,11 @@ h2 {
   background-color: #e4af12;
   border-color: #e4af12; }
 
-.col-lg-4 {
-  -ms-flex: 0 0 25%;
-  flex: 0 0 25%;
-  max-width: 25%; }
+@media (min-width: 960px) {
+  .col-lg-4 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; } }
 
 h1, p {
   padding-left: 20px;
